@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: black;
+    color: white;
+  }
+  .header, .remote{
+    height:105px;
+    background-image: url("../img/blackstonebackground.jpg");
+    background-size: contain;
+    color: white;
+  }
+  .nails{
+    background: white;
+    height: 375px;
+    width: 100%;
+    display: flex;
+  }
+  div{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .hand{
+    height: auto;
+    width: 80%;
+    padding-left: 25%;
+  }
+  h1, h2{
+    width: 100%;
+    text-align: center;
+  }
+ 
+  ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+  }
+  .buttons{
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  #pink, #orange, #skyBlue, #teal{
+    border: 3px solid whitesmoke; 
+  }
+  #pink:hover, #orange:hover, #skyBlue:hover, #teal:hover{
+    background: white;
+    color: black;
+  }
+ 
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  #pink{
+    background: rgba(241,63,247,1);
+  }
+  #orange{
+    background: rgb(240, 159, 9);
+  }
+  #skyBlue{
+    background: rgb(92, 200, 230);
+  }
+  #teal{
+    background: rgb(3, 124, 124);
+  }
+  
